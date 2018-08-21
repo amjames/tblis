@@ -422,7 +422,8 @@ nobase_include_HEADERS = tci.h \
                          tci/slot.h \
                          tci/task_set.h \
                          tci/work_item.h \
-                         tci/yield.h
+                         tci/yield.h \
+												 tci/tci_global.h
 
 AM_CPPFLAGS = -I$(srcdir) -I$(srcdir)/tci -I. -Itci
 ACLOCAL_AMFLAGS = -I m4

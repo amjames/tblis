@@ -24,7 +24,8 @@ nobase_include_HEADERS = tci.h \
                          tci/slot.h \
                          tci/task_set.h \
                          tci/work_item.h \
-                         tci/yield.h
+                         tci/yield.h \
+												 tci/tci_global.h 
 
 %_cpp.cxx: %.c
 	@cp $< $@
